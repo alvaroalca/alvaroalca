@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preview perfil</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1f2328; --muted:#59636e; --border:#d1d9e0; --nav:#f6f8fa; }
+  body[data-theme="oscuro"] { --bg:#0d1117; --fg:#f0f6fc; --muted:#9198a1; --border:#3d444d; --nav:#010409; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:14px -apple-system, "Segoe UI", sans-serif; }
+  header { height:64px; background:var(--nav); border-bottom:1px solid var(--border); display:flex; align-items:center; padding:0 16px; gap:12px; }
+  header .logo { width:32px; height:32px; border-radius:50%; background:var(--fg); }
+  nav.tabs { height:48px; border-bottom:1px solid var(--border); background:var(--nav); }
+  .wrap { max-width:1280px; margin:0 auto; padding:24px 32px; display:flex; gap:24px; }
+  aside { width:296px; flex:none; }
+  aside .avatar { width:296px; height:296px; border-radius:50%; background:var(--border); }
+  aside h1 { font-size:24px; margin:16px 0 0; }
+  aside p { color:var(--muted); font-size:20px; margin:0; }
+  main { flex:1; min-width:0; }
+  .box { border:1px solid var(--border); border-radius:6px; padding:24px; }
+  .box .path { font-size:12px; color:var(--muted); margin-bottom:16px; font-family:ui-monospace, monospace; }
+  .box p { margin:0 0 16px; text-align:center; }
+  .box img { max-width:100%; vertical-align:middle; }
+  .tools { position:fixed; right:16px; bottom:16px; display:flex; gap:8px; z-index:2; }
+  .tools button { font:inherit; padding:6px 12px; border-radius:6px; border:1px solid var(--border); background:var(--nav); color:var(--fg); cursor:pointer; }
+  .fold { position:absolute; left:0; right:0; top:937px; border-top:1px dashed #d33; pointer-events:none; }
+  .fold span { position:absolute; right:8px; top:2px; font-size:11px; color:#d33; }
+</style>
+</head>
+<body data-theme="claro">
+<header><div class="logo"></div></header>
+<nav class="tabs"></nav>
+<div class="wrap">
+  <aside><div class="avatar"></div><h1>Álvaro Alcaraz</h1><p>alvaroalca</p></aside>
+  <main>
+    <div class="box">
+      <div class="path">alvaroalca / README.md</div>
+__PERFIL__
+    </div>
+  </main>
+</div>
+<div class="fold"><span>pliegue aproximado a 1920×1080</span></div>
+<div class="tools">
+  <button id="tema">Cambiar tema</button>
+  <button id="otra">Repetir animación</button>
+</div>
+<script>
+  const cargar = () => document.querySelectorAll('img[data-base]').forEach(img => {
+    img.src = `assets/${img.dataset.base}-${document.body.dataset.theme}.svg?t=${Date.now()}`;
+  });
+  document.getElementById('tema').onclick = () => {
+    document.body.dataset.theme = document.body.dataset.theme === 'claro' ? 'oscuro' : 'claro';
+    cargar();
+  };
+  document.getElementById('otra').onclick = cargar;
+</script>
+</body>
+</html>
