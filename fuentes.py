@@ -34,13 +34,14 @@ CLASE_FAMILIA = {"m1": "m1", "m2": "m2", "head": "head", "title": "m1", "year": 
 def _instancia(familia):
     fichero, ejes = INSTANCIAS[familia]
     fuente = instancer.instantiateVariableFont(TTFont(FUENTES / fichero), ejes)
+    fuente.recalcTimestamp = False  # sin esto cada build cambia los bytes y el commit mensual los reescribe todos
     buf = io.BytesIO()
     fuente.save(buf)
     return buf.getvalue()
 
 
 def _fuente(familia):
-    return TTFont(io.BytesIO(_instancia(familia)))
+    return TTFont(io.BytesIO(_instancia(familia)), recalcTimestamp=False)
 
 
 @lru_cache(maxsize=None)

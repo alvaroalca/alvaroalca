@@ -19,7 +19,7 @@ from fuentes import ancho, embeber, partir
 
 RAIZ = Path(__file__).parent
 SALIDA = RAIZ / "assets"
-CAPTURAS = Path(r"C:\Mis Proyectos\pagina web promocion\public\projects\predictor-pesca\assets")
+CAPTURAS = RAIZ / "src" / "capturas"
 USUARIO = "alvaroalca"
 
 # Tokens de project-v2.css del portfolio. --muted en claro va a #5C5F56 como en los vídeos:
@@ -54,7 +54,7 @@ def escribir(base, svg):
         for clave, valor in tokens.items():
             final = final.replace(f"__{clave}__", valor)
         destino = SALIDA / f"{base}-{nombre}.svg"
-        destino.write_text(final, encoding="utf-8")
+        destino.write_text(final, encoding="utf-8", newline="\n")
     print(f"{base}: {destino.stat().st_size / 1024:.1f} KB por tema")
 
 
@@ -270,13 +270,13 @@ def html_perfil(datos, para_readme):
 def preview(datos):
     plantilla = (RAIZ / "src" / "preview.html").read_text(encoding="utf-8")
     (RAIZ / "preview.html").write_text(plantilla.replace("__PERFIL__", html_perfil(datos, False)),
-                                       encoding="utf-8")
+                                       encoding="utf-8", newline="\n")
 
 
 def readme(datos):
     plantilla = (RAIZ / "src" / "README.md").read_text(encoding="utf-8")
     (RAIZ / "README.md").write_text(plantilla.replace("__PERFIL__", html_perfil(datos, True)),
-                                    encoding="utf-8")
+                                    encoding="utf-8", newline="\n")
 
 
 def repos_sin_ubicar(datos):
