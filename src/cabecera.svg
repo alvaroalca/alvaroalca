@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 560" width="880" height="560" role="img" aria-label="Álvaro Alcaraz, desarrollador fullstack. De la sección de pesca de Decathlon a publicar su propia app de pesca.">
+<style>
+__FONTS__
+:root { --paper:__PAPER__; --ink:__INK__; --soft:__SOFT__; --muted:__MUTED__; --accent:__ACCENT__; --rule:__RULE__; }
+text { font-family: 'n400', Georgia, serif; fill: var(--ink); }
+.meta { font-family: 'n600', Georgia, serif; font-size: 11px; letter-spacing: 2px; fill: var(--muted); }
+.kick { font-family: 'n700', Georgia, serif; font-size: 11px; letter-spacing: 2.2px; fill: var(--accent); }
+.mast { font-size: 92px; }
+.m1 { font-family: 'm1', Georgia, serif; }
+.m2 { font-family: 'm2', Georgia, serif; }
+.sub { font-size: 18px; fill: var(--soft); }
+.head { font-family: 'head', Georgia, serif; font-size: 28px; }
+.body { font-size: 15.5px; fill: var(--soft); }
+.year { font-family: 'year', Georgia, serif; font-size: 12.5px; }
+.desc { font-size: 13.5px; fill: var(--soft); }
+.foot { font-size: 13px; letter-spacing: 1px; fill: var(--muted); }
+.stamp-t { font-family: 'stamp', Georgia, serif; font-size: 23px; letter-spacing: 2px; fill: var(--accent); }
+.stamp-s { font-family: 'n700', Georgia, serif; font-size: 8px; letter-spacing: .7px; fill: var(--accent); }
+.rule { fill: var(--ink); }
+.hair { fill: var(--rule); }
+.last { fill: var(--accent); }
+
+/* plancha de color fuera de registro: mismos valores que el portfolio */
+.plate { fill: var(--accent); opacity: .3; mix-blend-mode: __BLEND__; transform: translate(.022em, -.012em); }
+.plate .m2 { fill: transparent; }
+
+/* cada animación declara solo su estado inicial: el estado final es el estilo base.
+   Con movimiento reducido no hay animación y se ve directamente el fotograma final. */
+.a { animation-duration: .5s; animation-fill-mode: backwards; animation-timing-function: cubic-bezier(.2,.75,.2,1); animation-delay: var(--d, 0s); transform-box: fill-box; }
+.draw  { animation-name: draw;  transform-origin: left center; }
+.drawY { animation-name: drawY; transform-origin: center top; animation-duration: 2.4s; animation-timing-function: linear; }
+.fade  { animation-name: fade; }
+.type  { animation-name: type; animation-duration: .45s; animation-timing-function: cubic-bezier(.4,0,.2,1); }
+.pop   { animation-name: pop; transform-origin: center; animation-duration: .3s; }
+.plate.a { animation-name: plate; animation-duration: 1.4s; }
+.press { animation-name: press; transform-origin: center; animation-duration: .32s; animation-timing-function: cubic-bezier(.55,0,.9,.45); }
+.stamp { transform: rotate(-7deg); opacity: .92; }
+.stamp.a { animation-name: stamp; transform-origin: center; animation-duration: .38s; animation-timing-function: cubic-bezier(.6,0,.95,.5); }
+
+@keyframes draw  { from { transform: scaleX(0); } }
+@keyframes drawY { from { transform: scaleY(0); } }
+@keyframes fade  { from { opacity: 0; transform: translateY(6px); } }
+@keyframes type  { from { clip-path: inset(0 100% 0 0); } }
+@keyframes pop   { from { transform: scale(0); } }
+@keyframes plate { 0% { transform: translate(.3em, -.11em); opacity: 0; } 40% { opacity: .3; } }
+@keyframes press { from { opacity: 0; transform: scale(1.07); } }
+@keyframes stamp { from { opacity: 0; transform: rotate(-16deg) scale(2.4); } }
+
+@media (prefers-reduced-motion: reduce) { .a { animation: none !important; } }
+</style>
+<defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+    <feColorMatrix type="saturate" values="0"/>
+  </filter>
+  <filter id="rubber" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="7" result="n"/>
+    <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -2.4 0 0 0 1.9" result="m"/>
+    <feComposite in="SourceGraphic" in2="m" operator="in"/>
+  </filter>
+</defs>
+
+<!-- papel -->
+<rect width="880" height="560" fill="var(--paper)"/>
+<rect width="880" height="560" filter="url(#grain)" opacity="__GRAIN_OP__" style="mix-blend-mode: __GRAIN_BLEND__"/>
+
+<!-- cabecera del periódico -->
+<text class="meta a fade" style="--d:.1s" x="32" y="34">DESARROLLADOR FULLSTACK</text>
+<text class="meta a fade" style="--d:.15s" x="440" y="34" text-anchor="middle">__FECHA__</text>
+<text class="meta a fade" style="--d:.2s" x="848" y="34" text-anchor="end">ALVAROALCARAZ.COM</text>
+<rect class="rule a draw" style="--d:.1s" x="32" y="45" width="816" height="2.5"/>
+<rect class="rule a draw" style="--d:.2s" x="32" y="50.5" width="816" height=".8"/>
+
+<text class="mast plate a" style="--d:.35s" x="440" y="140" text-anchor="middle"><tspan class="m1">Álvaro</tspan><tspan class="m2"> Alcaraz</tspan></text>
+<text class="mast a press" style="--d:1.05s" x="440" y="140" text-anchor="middle"><tspan class="m1">Álvaro</tspan><tspan class="m2"> Alcaraz</tspan></text>
+
+<rect class="rule a draw" style="--d:1.3s" x="32" y="165" width="816" height=".8"/>
+<text class="sub a fade" style="--d:1.45s" x="440" y="192" text-anchor="middle">Construye productos completos, de la base de datos a la tienda de aplicaciones.</text>
+<rect class="rule a draw" style="--d:1.55s" x="32" y="207" width="816" height="2.5"/>
+<rect class="rule a draw" style="--d:1.65s" x="32" y="212.5" width="816" height=".8"/>
+<rect class="hair a drawY" style="--d:1.9s; animation-duration:.8s" x="580" y="232" width="1" height="258"/>
+
+<!-- columna principal -->
+<text class="kick a fade" style="--d:1.9s" x="32" y="248">EN PORTADA</text>
+<text class="head a type" style="--d:2.05s" x="32" y="284">De la sección de pesca de Decathlon</text>
+<text class="head a type" style="--d:2.4s" x="32" y="318">a publicar su propia app de pesca</text>
+<text class="body a type" style="--d:2.8s" x="32" y="354">Predictor Pesca cruza meteorología, mareas y luna, y dice qué especies</text>
+<text class="body a type" style="--d:2.95s" x="32" y="377">están para pescar cada día y a qué hora. La ha hecho él solo, de punta</text>
+<text class="body a type" style="--d:3.1s" x="32" y="400">a punta: Flutter, Supabase con Postgres y Edge Functions en TypeScript.</text>
+
+<rect class="hair a draw" style="--d:3.5s" x="32" y="428" width="340" height="1"/>
+<text class="kick a fade" style="--d:3.6s" x="32" y="448">FUERA DEL CÓDIGO</text>
+<text class="body a fade" style="--d:3.7s" x="32" y="470">Tirador de pistola aire 10 m. De ahí sale Alcaten,</text>
+<text class="body a fade" style="--d:3.8s" x="32" y="491">su app de entrenamiento para tiradores.</text>
+
+<!-- sello -->
+<g transform="translate(470 462)">
+  <g class="stamp a" style="--d:4.9s" filter="url(#rubber)">
+    <rect x="-84" y="-31" width="168" height="62" rx="5" fill="none" stroke="var(--accent)" stroke-width="3"/>
+    <rect x="-78" y="-25" width="156" height="50" rx="3" fill="none" stroke="var(--accent)" stroke-width="1.2"/>
+    <text class="stamp-t" x="0" y="3" text-anchor="middle">PUBLICADA</text>
+    <text class="stamp-s" x="0" y="19" text-anchor="middle">APP STORE · GOOGLE PLAY</text>
+  </g>
+</g>
+
+<!-- recorrido -->
+<text class="kick a fade" style="--d:2s" x="604" y="248">RECORRIDO</text>
+<rect class="hair a drawY" style="--d:2.2s" x="611.5" y="266" width="1" height="192"/>
+__RECORRIDO__
+
+<!-- pie -->
+<rect class="rule a draw" style="--d:4.4s" x="32" y="510" width="816" height="1.2"/>
+<text class="foot a fade" style="--d:4.5s" xml:space="preserve" x="440" y="536" text-anchor="middle">alvaroalcaraz.com   ·   linkedin.com/in/alvaroalcaraz   ·   alvaroalca@hotmail.com</text>
+</svg>

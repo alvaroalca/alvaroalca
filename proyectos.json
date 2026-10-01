@@ -1,0 +1,107 @@
+{
+  "destacado": {
+    "titulo": "Predictor Pesca",
+    "kicker": "PROYECTO DESTACADO",
+    "estado": "APP STORE · GOOGLE PLAY",
+    "entradilla": "Predicción de surfcasting desde costa: eliges playa y día, y te dice qué especies están para pescar, a qué hora, con qué cebo y a qué distancia.",
+    "puntos": [
+      "Nota por especie calculada en Edge Functions de TypeScript sobre meteorología, marea y luna.",
+      "Caché por celda geográfica: los usuarios de una misma playa comparten una sola consulta.",
+      "Hecha y publicada por una sola persona, de la base de datos a la revisión de Apple."
+    ],
+    "stack": "FLUTTER · SUPABASE · POSTGRESQL · TYPESCRIPT",
+    "capturas": ["jornada.webp", "especie.webp"],
+    "pie": "Tu jornada y la ficha de especie",
+    "enlace": "https://alvaroalcaraz.com/projects/predictor-pesca/"
+  },
+  "tarjetas": [
+    {
+      "titulo": "Alcaten",
+      "kicker": "PLATAFORMA DEPORTIVA",
+      "texto": "Entrenamiento de tiro de entrenador a tirador: cronómetro de fases, chat en tiempo real y analítica. Siete esquemas Postgres, RLS deny-by-default y 50 tests pgTAP en CI.",
+      "stack": "FLUTTER · SUPABASE · POSTGRESQL",
+      "enlace": "https://alvaroalcaraz.com/projects/alcaten/"
+    },
+    {
+      "titulo": "Radar de licitaciones",
+      "kicker": "DATOS ABIERTOS + LLM",
+      "texto": "Lee los pliegos de los concursos públicos de informática con un LLM, el código comprueba cada dato contra su cita y dice a cada PYME a qué concursos puede presentarse.",
+      "stack": "TYPESCRIPT · OLLAMA · CLAUDE",
+      "repo": "radar-licitaciones",
+      "enlace": "https://github.com/alvaroalca/radar-licitaciones"
+    },
+    {
+      "titulo": "Portal JJPP",
+      "kicker": "EN PRODUCCIÓN",
+      "texto": "Portal técnico de tiro olímpico con usuarios reales: chatbot con IA en streaming, analizador de dianas con visión y ranking en vivo. Todo en capa gratuita.",
+      "stack": "JAVASCRIPT · WORKERS · SUPABASE",
+      "enlace": "https://alvaroalcaraz.com/projects/javier-alcaraz/"
+    },
+    {
+      "titulo": "Panel de empleo",
+      "kicker": "ANALÍTICA WEB",
+      "texto": "Analítica web y embudo de candidaturas sobre Cloudflare Workers y D1, sin dependencias externas y sin guardar IPs. Publicado como plantilla con licencia MIT.",
+      "stack": "JAVASCRIPT · WORKERS · D1",
+      "repo": "panel-empleo",
+      "enlace": "https://github.com/alvaroalca/panel-empleo"
+    },
+    {
+      "titulo": "Flota",
+      "kicker": "SOFTWARE PARA PYMES",
+      "texto": "Gestión de vehículos en renting: plazos legales de multas, retribución en especie calculada en Postgres y bandeja de entrada con revisión humana.",
+      "stack": "FLUTTER · SUPABASE · POSTGRESQL",
+      "enlace": "https://alvaroalcaraz.com/projects/flota/"
+    },
+    {
+      "titulo": "Bot de trading",
+      "kicker": "INVESTIGACIÓN CUANTITATIVA",
+      "texto": "Trading cripto con ingesta, backtesting con pre-registro, deflated Sharpe ratio y paper trading autónomo. Doce ramas medidas y doce noes, documentados.",
+      "stack": "PYTHON · PANDAS · CCXT",
+      "enlace": "https://alvaroalcaraz.com/projects/bot-trading/"
+    },
+    {
+      "titulo": "Pulso",
+      "kicker": "SALUD · BLUETOOTH",
+      "texto": "Convierte una banda Polar H10 y un oxímetro en un monitor cardíaco doméstico: ECG en vivo, dos sensores a la vez y protocolo descifrado por ingeniería inversa.",
+      "stack": "FLUTTER · BLE",
+      "enlace": "https://alvaroalcaraz.com/projects/pulso/"
+    },
+    {
+      "titulo": "Gafas W610",
+      "kicker": "INGENIERÍA INVERSA",
+      "texto": "Protocolo BLE de unas gafas-cámara descifrado para controlarlas desde una app propia y sacar telemetría de tiro con visión por computador.",
+      "stack": "FLUTTER · BLE · PYTHON · OPENCV",
+      "enlace": "https://alvaroalcaraz.com/projects/gafas-w610/"
+    }
+  ],
+  "breves": [
+    {
+      "titulo": "Bot FMTO",
+      "texto": "Avisa por Telegram de tandas y resultados.",
+      "repo": "fmto-bot",
+      "enlace": "https://github.com/alvaroalca/fmto-bot"
+    },
+    {
+      "titulo": "Alka",
+      "texto": "Chatbot con personalidad en Workers AI.",
+      "repo": "Chatbot",
+      "enlace": "https://alvaroalcaraz.com/projects/chatbot/"
+    },
+    {
+      "titulo": "Este portfolio",
+      "texto": "Sin frameworks, CSP estricta y panel propio.",
+      "enlace": "https://alvaroalcaraz.com/projects/portfolio/"
+    },
+    {
+      "titulo": "TFG de DAM",
+      "texto": "Gestor de entrenamientos en Flutter.",
+      "repo": "flutter-sports-training-manager",
+      "enlace": "https://github.com/alvaroalca/flutter-sports-training-manager"
+    }
+  ],
+  "ignorados": {
+    "alvaroalca": "este mismo repo",
+    "predictor-pesca": "landing de Pesca, ya cubierta por el destacado",
+    "pesca-legal": "páginas legales de Pesca"
+  }
+}
