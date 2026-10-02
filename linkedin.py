@@ -156,9 +156,9 @@ def github():
                    "El código de los proyectos, en abierto.")
 
 
-def proyectos():
-    return tarjeta("PROYECTOS", '<tspan class="m1">Proyectos</tspan>', 168,
-                   "Apps en Flutter, TypeScript, web y automatizaciones.")
+def cv():
+    return tarjeta("CURRÍCULUM", '<tspan class="m1">Currículum</tspan>', 168,
+                   "Formación, experiencia y proyectos, en PDF.")
 
 
 def rasterizar(svg_txt, tam, destino):
@@ -191,7 +191,7 @@ def simulacion(banner_png, destino):
 def main():
     SALIDA.mkdir(exist_ok=True)
     for nombre, componer in [("banner.png", banner), ("og.jpg", og),
-                              ("destacado-github.jpg", github), ("destacado-proyectos.jpg", proyectos)]:
+                              ("destacado-github.jpg", github), ("destacado-cv.jpg", cv)]:
         destino = SALIDA / nombre
         rasterizar(*componer(), destino)
         print(f"{destino}: {destino.stat().st_size / 1024:.0f} KB")
