@@ -88,6 +88,12 @@
       "enlace": "https://alvaroalcaraz.com/projects/chatbot/"
     },
     {
+      "titulo": "Juguete de físicas",
+      "texto": "Cuerpos blandos XPBD jugables en el navegador.",
+      "repo": "juguete-fisicas",
+      "enlace": "https://alvaroalcaraz.com/juguete/"
+    },
+    {
       "titulo": "Este portfolio",
       "texto": "Sin frameworks, CSP estricta y panel propio.",
       "enlace": "https://alvaroalcaraz.com/projects/portfolio/"

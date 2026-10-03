@@ -31,8 +31,9 @@
 <p align="center">
 <a href="https://github.com/alvaroalca/fmto-bot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-1-oscuro.svg"><img src="assets/breve-1-claro.svg" width="24%" alt="Bot FMTO"></picture></a>
 <a href="https://alvaroalcaraz.com/projects/chatbot/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-2-oscuro.svg"><img src="assets/breve-2-claro.svg" width="24%" alt="Alka"></picture></a>
-<a href="https://alvaroalcaraz.com/projects/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-3-oscuro.svg"><img src="assets/breve-3-claro.svg" width="24%" alt="Este portfolio"></picture></a>
-<a href="https://github.com/alvaroalca/flutter-sports-training-manager"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-4-oscuro.svg"><img src="assets/breve-4-claro.svg" width="24%" alt="TFG de DAM"></picture></a>
+<a href="https://alvaroalcaraz.com/juguete/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-3-oscuro.svg"><img src="assets/breve-3-claro.svg" width="24%" alt="Juguete de físicas"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-4-oscuro.svg"><img src="assets/breve-4-claro.svg" width="24%" alt="Este portfolio"></picture></a>
+<a href="https://github.com/alvaroalca/flutter-sports-training-manager"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-5-oscuro.svg"><img src="assets/breve-5-claro.svg" width="24%" alt="TFG de DAM"></picture></a>
 </p>
 
 <p align="center">
