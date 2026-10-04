@@ -35,6 +35,7 @@ TEMAS = {
 
 MESES = ["ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO",
          "AGOSTO", "SEPTIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE"]
+DIAS = ["LUNES", "MARTES", "MIÉRCOLES", "JUEVES", "VIERNES", "SÁBADO", "DOMINGO"]
 
 # (años, línea 1, línea 2). El último se marca con el acento.
 RECORRIDO = [
@@ -81,7 +82,7 @@ def cabecera():
     hoy = datetime.date.today()
     svg = (RAIZ / "src" / "cabecera.svg").read_text(encoding="utf-8")
     svg = svg.replace("__RECORRIDO__", recorrido_svg())
-    svg = svg.replace("__FECHA__", f"{MESES[hoy.month - 1]} DE {hoy.year}")
+    svg = svg.replace("__FECHA__", f"{DIAS[hoy.weekday()]}, {hoy.day} DE {MESES[hoy.month - 1]} DE {hoy.year}")
     escribir("cabecera", svg)
 
 

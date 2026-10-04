@@ -1,9 +1,9 @@
 name: Regenerar perfil
 
-# El día 1 de cada mes: fecha de la cabecera y estrellas de los repos.
+# Cada día: fecha de la cabecera (edición diaria del periódico) y estrellas de los repos.
 on:
   schedule:
-    - cron: "0 6 1 * *"
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
         run: |
           git add -A assets README.md
           if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "perfil: regeneración mensual"
+          git config user.name "Álvaro Alcaraz"
+          git config user.email "alvaroalca@users.noreply.github.com"
+          git commit -m "perfil: edición del $(date -u +%F)"
           git push
