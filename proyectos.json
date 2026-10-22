@@ -10,11 +10,22 @@
       "Hecha y publicada por una sola persona, de la base de datos a la revisión de Apple."
     ],
     "stack": "FLUTTER · SUPABASE · POSTGRESQL · TYPESCRIPT",
-    "capturas": ["jornada.webp", "especie.webp"],
+    "capturas": [
+      "jornada.webp",
+      "especie.webp"
+    ],
     "pie": "Tu jornada y la ficha de especie",
     "enlace": "https://alvaroalcaraz.com/projects/predictor-pesca/"
   },
   "tarjetas": [
+    {
+      "titulo": "Comprobador de parcelas",
+      "kicker": "URBANISMO · DATOS ABIERTOS",
+      "texto": "Pincha una finca de cualquier parte de España y dice si cabe una casa, con el artículo de la ley que lo decide. Un adaptador por comunidad y 493 citas comprobadas.",
+      "stack": "JAVASCRIPT · MAPLIBRE · WORKERS",
+      "repo": "comprobador-parcelas",
+      "enlace": "https://github.com/alvaroalca/comprobador-parcelas"
+    },
     {
       "titulo": "Alcaten",
       "kicker": "PLATAFORMA DEPORTIVA",
@@ -65,13 +76,6 @@
       "texto": "Convierte una banda Polar H10 y un oxímetro en un monitor cardíaco doméstico: ECG en vivo, dos sensores a la vez y protocolo descifrado por ingeniería inversa.",
       "stack": "FLUTTER · BLE",
       "enlace": "https://alvaroalcaraz.com/projects/pulso/"
-    },
-    {
-      "titulo": "Gafas W610",
-      "kicker": "INGENIERÍA INVERSA",
-      "texto": "Protocolo BLE de unas gafas-cámara descifrado para controlarlas desde una app propia y sacar telemetría de tiro con visión por computador.",
-      "stack": "FLUTTER · BLE · PYTHON · OPENCV",
-      "enlace": "https://alvaroalcaraz.com/projects/gafas-w610/"
     }
   ],
   "breves": [
@@ -103,6 +107,11 @@
       "texto": "Gestor de entrenamientos en Flutter.",
       "repo": "flutter-sports-training-manager",
       "enlace": "https://github.com/alvaroalca/flutter-sports-training-manager"
+    },
+    {
+      "titulo": "Gafas W610",
+      "texto": "Protocolo BLE de unas gafas-cámara descifrado.",
+      "enlace": "https://alvaroalcaraz.com/projects/gafas-w610/"
     }
   ],
   "ignorados": {

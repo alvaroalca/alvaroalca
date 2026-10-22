@@ -9,23 +9,23 @@
 </p>
 
 <p align="center">
-<a href="https://alvaroalcaraz.com/projects/alcaten/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-1-oscuro.svg"><img src="assets/tarjeta-1-claro.svg" width="49%" alt="Alcaten"></picture></a>
-<a href="https://github.com/alvaroalca/radar-licitaciones"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-2-oscuro.svg"><img src="assets/tarjeta-2-claro.svg" width="49%" alt="Radar de licitaciones"></picture></a>
+<a href="https://github.com/alvaroalca/comprobador-parcelas"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-1-oscuro.svg"><img src="assets/tarjeta-1-claro.svg" width="49%" alt="Comprobador de parcelas"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/alcaten/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-2-oscuro.svg"><img src="assets/tarjeta-2-claro.svg" width="49%" alt="Alcaten"></picture></a>
 </p>
 
 <p align="center">
-<a href="https://alvaroalcaraz.com/projects/javier-alcaraz/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-3-oscuro.svg"><img src="assets/tarjeta-3-claro.svg" width="49%" alt="Portal JJPP"></picture></a>
-<a href="https://github.com/alvaroalca/panel-empleo"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-4-oscuro.svg"><img src="assets/tarjeta-4-claro.svg" width="49%" alt="Panel de empleo"></picture></a>
+<a href="https://github.com/alvaroalca/radar-licitaciones"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-3-oscuro.svg"><img src="assets/tarjeta-3-claro.svg" width="49%" alt="Radar de licitaciones"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/javier-alcaraz/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-4-oscuro.svg"><img src="assets/tarjeta-4-claro.svg" width="49%" alt="Portal JJPP"></picture></a>
 </p>
 
 <p align="center">
-<a href="https://alvaroalcaraz.com/projects/flota/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-5-oscuro.svg"><img src="assets/tarjeta-5-claro.svg" width="49%" alt="Flota"></picture></a>
-<a href="https://alvaroalcaraz.com/projects/bot-trading/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-6-oscuro.svg"><img src="assets/tarjeta-6-claro.svg" width="49%" alt="Bot de trading"></picture></a>
+<a href="https://github.com/alvaroalca/panel-empleo"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-5-oscuro.svg"><img src="assets/tarjeta-5-claro.svg" width="49%" alt="Panel de empleo"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/flota/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-6-oscuro.svg"><img src="assets/tarjeta-6-claro.svg" width="49%" alt="Flota"></picture></a>
 </p>
 
 <p align="center">
-<a href="https://alvaroalcaraz.com/projects/pulso/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-7-oscuro.svg"><img src="assets/tarjeta-7-claro.svg" width="49%" alt="Pulso"></picture></a>
-<a href="https://alvaroalcaraz.com/projects/gafas-w610/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-8-oscuro.svg"><img src="assets/tarjeta-8-claro.svg" width="49%" alt="Gafas W610"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/bot-trading/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-7-oscuro.svg"><img src="assets/tarjeta-7-claro.svg" width="49%" alt="Bot de trading"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/pulso/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tarjeta-8-oscuro.svg"><img src="assets/tarjeta-8-claro.svg" width="49%" alt="Pulso"></picture></a>
 </p>
 
 <p align="center">
@@ -34,6 +34,7 @@
 <a href="https://alvaroalcaraz.com/juguete/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-3-oscuro.svg"><img src="assets/breve-3-claro.svg" width="24%" alt="Juguete de físicas"></picture></a>
 <a href="https://alvaroalcaraz.com/projects/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-4-oscuro.svg"><img src="assets/breve-4-claro.svg" width="24%" alt="Este portfolio"></picture></a>
 <a href="https://github.com/alvaroalca/flutter-sports-training-manager"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-5-oscuro.svg"><img src="assets/breve-5-claro.svg" width="24%" alt="TFG de DAM"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/gafas-w610/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-6-oscuro.svg"><img src="assets/breve-6-claro.svg" width="24%" alt="Gafas W610"></picture></a>
 </p>
 
 <p align="center">
