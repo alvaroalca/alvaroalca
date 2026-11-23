@@ -98,6 +98,18 @@
       "enlace": "https://alvaroalcaraz.com/juguete/"
     },
     {
+      "titulo": "Cuadrante",
+      "texto": "Turnos que cumplen el convenio, cada regla con su cita.",
+      "repo": "cuadrante",
+      "enlace": "https://alvaroalcaraz.com/projects/cuadrante/"
+    },
+    {
+      "titulo": "Pasillo",
+      "texto": "Simula dónde se atasca una tienda con tickets reales.",
+      "repo": "pasillo",
+      "enlace": "https://alvaroalcaraz.com/projects/pasillo/"
+    },
+    {
       "titulo": "Este portfolio",
       "texto": "Sin frameworks, CSP estricta y panel propio.",
       "enlace": "https://alvaroalcaraz.com/projects/portfolio/"

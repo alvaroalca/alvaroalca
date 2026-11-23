@@ -32,9 +32,11 @@
 <a href="https://github.com/alvaroalca/fmto-bot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-1-oscuro.svg"><img src="assets/breve-1-claro.svg" width="24%" alt="Bot FMTO"></picture></a>
 <a href="https://alvaroalcaraz.com/projects/chatbot/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-2-oscuro.svg"><img src="assets/breve-2-claro.svg" width="24%" alt="Alka"></picture></a>
 <a href="https://alvaroalcaraz.com/juguete/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-3-oscuro.svg"><img src="assets/breve-3-claro.svg" width="24%" alt="Juguete de físicas"></picture></a>
-<a href="https://alvaroalcaraz.com/projects/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-4-oscuro.svg"><img src="assets/breve-4-claro.svg" width="24%" alt="Este portfolio"></picture></a>
-<a href="https://github.com/alvaroalca/flutter-sports-training-manager"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-5-oscuro.svg"><img src="assets/breve-5-claro.svg" width="24%" alt="TFG de DAM"></picture></a>
-<a href="https://alvaroalcaraz.com/projects/gafas-w610/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-6-oscuro.svg"><img src="assets/breve-6-claro.svg" width="24%" alt="Gafas W610"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/cuadrante/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-4-oscuro.svg"><img src="assets/breve-4-claro.svg" width="24%" alt="Cuadrante"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/pasillo/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-5-oscuro.svg"><img src="assets/breve-5-claro.svg" width="24%" alt="Pasillo"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/portfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-6-oscuro.svg"><img src="assets/breve-6-claro.svg" width="24%" alt="Este portfolio"></picture></a>
+<a href="https://github.com/alvaroalca/flutter-sports-training-manager"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-7-oscuro.svg"><img src="assets/breve-7-claro.svg" width="24%" alt="TFG de DAM"></picture></a>
+<a href="https://alvaroalcaraz.com/projects/gafas-w610/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/breve-8-oscuro.svg"><img src="assets/breve-8-claro.svg" width="24%" alt="Gafas W610"></picture></a>
 </p>
 
 <p align="center">
